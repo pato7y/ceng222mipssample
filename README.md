@@ -1,1 +1,1 @@
-# Ceng382_23_24_s_202211404_
+#ceng222 mips simple sample code i wrote 
