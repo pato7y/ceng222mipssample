@@ -1,15 +1,13 @@
-
 .data
 
 .text
-addi $t0,$zero,18
-addi $t1,$zero,9
-div $s0 ,$t0,$t1
+addi $t0, $zero, 18   
+addi $t1, $zero, 9    
+div $t0, $t1          
+
+mflo $s0              
 
 
-
-#printing on screen
-$li $v0 ,1
-add $s0,$zero,$s0
-syscall 
-
+li $v0, 1             
+move $a0, $s0         
+syscall              
